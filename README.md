@@ -2,12 +2,12 @@
 A RESTful API for managing tasks, built with Node.js, Express, and JavaScript.
 
 # Table of Contents
-    # Overview
-    # Features
-    # Endpoints
-    # Installation
-    # Testing
-    # API Documentation
+1. Overview
+2. Features
+3. Endpoints
+4. Installation
+5. Testing
+6. API Documentation
 
 # Overview
     This project provides a simple task management API that allows users to create, read, update, and delete tasks. The API is built using Node.js, Express, and JavaScript, and uses a JSON file as a mock database.
@@ -23,11 +23,12 @@ A RESTful API for managing tasks, built with Node.js, Express, and JavaScript.
 # Endpoints
 
 GET /tasks
-    Retrieve all tasks
+    ```Retrieve all tasks
     Query parameters:
         **completed**: Filter tasks by completed status (true or false)
         **priority**: Filter tasks by priority
         **sort**: Sort tasks by title in ascending (asc) or descending (desc) order
+        ```
     
 GET /tasks/:id
     Retrieve a single task by ID
