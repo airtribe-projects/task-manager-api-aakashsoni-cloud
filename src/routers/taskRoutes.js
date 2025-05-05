@@ -9,6 +9,6 @@ router.get('/', getAllTasks);
 router.get('/:id', getTaskById);
 router.post('/', addNewTask, errorHandle);
 router.put('/:id', updateExistingTask, errorHandle);
-router.delete('/:id', deleteTask);
+router.delete("/:id", deleteTask, errorHandle);
 
 module.exports = router;
